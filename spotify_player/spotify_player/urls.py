@@ -1,4 +1,4 @@
-"""spotify_app URL Configuration
+"""spotify_player URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('playlists.urls')),
+    path('', include('user_profile.urls')),
 ]
